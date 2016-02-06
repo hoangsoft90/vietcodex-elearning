@@ -1,0 +1,158 @@
+2015-08-05 09:34:29,770 [main] INFO  org.red5.server.Launcher - Red5 Server 1.0.6-SNAPSHOT (https://github.com/Red5)
+2015-08-05 09:34:30,182 [main] INFO  o.r.spring.Red5ApplicationContext - setApplicationContext: org.springframework.context.support.FileSystemXmlApplicationContext@1f5b51f: startup date [Wed Aug 05 09:34:29 ICT 2015]; root of context hierarchy
+2015-08-05 09:34:30,183 [main] INFO  o.r.spring.Red5ApplicationContext - Red5ApplicationContext init
+2015-08-05 09:34:30,185 [main] INFO  o.r.spring.Red5ApplicationContext - Refreshing ApplicationContext 'red5.common': startup date [Wed Aug 05 09:34:30 ICT 2015]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@1f5b51f
+2015-08-05 09:34:30,323 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2015-08-05 09:34:30,339 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2015-08-05 09:34:30,339 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+2015-08-05 09:34:30,341 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2015-08-05 09:34:30,342 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'Red5_Scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 32 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2015-08-05 09:34:30,344 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'Red5_Scheduler' initialized from the specified file : 'C:/Program Files/Red5/conf/quartz.properties'
+2015-08-05 09:34:30,344 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+2015-08-05 09:34:30,345 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler Red5_Scheduler_$_NON_CLUSTERED started.
+2015-08-05 09:34:30,856 [main] INFO  org.red5.server.service.WarDeployer - War deployer service created
+2015-08-05 09:34:31,016 [main] INFO  o.r.spring.Red5ApplicationContext - setApplicationContext: org.springframework.context.support.FileSystemXmlApplicationContext@1f5b51f: startup date [Wed Aug 05 09:34:29 ICT 2015]; root of context hierarchy
+2015-08-05 09:34:31,017 [main] INFO  o.r.spring.Red5ApplicationContext - Red5ApplicationContext init
+2015-08-05 09:34:31,018 [main] INFO  o.r.spring.Red5ApplicationContext - Refreshing ApplicationContext 'red5.core': startup date [Wed Aug 05 09:34:31 ICT 2015]; parent: ApplicationContext 'red5.common'
+2015-08-05 09:34:31,087 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP will be bound to [192.168.1.103:1935]
+2015-08-05 09:34:31,088 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP Mina Transport Settings
+Acceptor style: default I/O threads: 16
+TCP no-delay: true keep-alive: false
+2015-08-05 09:34:31,215 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Traffic class modification is disabled
+2015-08-05 09:34:31,219 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Send buffer size: 65536 recv buffer size: 65536 so linger: -1 traffic class: 0
+2015-08-05 09:34:31,247 [main] INFO  org.red5.server.ContextLoader - ContextLoader init
+2015-08-05 09:34:31,250 [main] INFO  org.red5.server.ContextLoader - Loading: default.context = ${red5.root}/webapps/red5-default.xml => C:/Program Files/Red5/webapps/red5-default.xml
+2015-08-05 09:34:31,301 [main] INFO  org.red5.server.Context - Setting parent bean factory as core
+2015-08-05 09:34:31,370 [main] INFO  org.red5.server.tomcat.TomcatLoader - Loading tomcat
+2015-08-05 09:34:31,371 [main] INFO  org.red5.server.tomcat.TomcatLoader - Server root: C:/Program Files/Red5
+2015-08-05 09:34:31,371 [main] INFO  org.red5.server.tomcat.TomcatLoader - Config root: C:/Program Files/Red5/conf
+2015-08-05 09:34:31,393 [main] INFO  org.red5.server.tomcat.TomcatLoader - Application root: C:/Program Files/Red5/webapps
+2015-08-05 09:34:31,510 [main] INFO  org.red5.server.tomcat.TomcatLoader - Starting Tomcat servlet engine
+2015-08-05 09:34:49,687 [RTMPConnectionExecutor#DSLV8IUK1SU74-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - onCommand Invoke #1: Service: null Method: connect Num Params: 0
+2015-08-05 09:34:49,697 [RTMPConnectionExecutor#DSLV8IUK1SU74-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - connect
+2015-08-05 09:34:49,698 [RTMPConnectionExecutor#DSLV8IUK1SU74-1] WARN  o.red5.server.net.rtmp.RTMPHandler - Scope live not found
+2015-08-05 09:34:49,699 [RTMPConnectionExecutor#DSLV8IUK1SU74-1] INFO  o.red5.server.net.rtmp.RTMPHandler - No application scope found for live on host 192.168.1.103
+2015-08-05 09:34:49,740 [RTMPConnectionExecutor#DSLV8IUK1SU74-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Close connection due to connect handling exception: DSLV8IUK1SU74
+2015-08-05 09:34:49,743 [NioProcessor-2] INFO  o.r.s.net.rtmp.RTMPMinaIoHandler - Ignoring received message on DSLV8IUK1SU74 due to state: disconnecting
+2015-08-05 09:34:49,758 [RTMPConnectionExecutor#DSLV8IUK1SU74-1] WARN  o.r.server.net.rtmp.RTMPConnManager - Connection not found for DSLV8IUK1SU74
+2015-08-05 09:34:59,115 [RTMPConnectionExecutor#2KXAUIDF2D9TN-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - onCommand Invoke #1: Service: null Method: connect Num Params: 0
+2015-08-05 09:34:59,116 [RTMPConnectionExecutor#2KXAUIDF2D9TN-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - connect
+2015-08-05 09:34:59,117 [RTMPConnectionExecutor#2KXAUIDF2D9TN-1] WARN  o.red5.server.net.rtmp.RTMPHandler - Scope live not found
+2015-08-05 09:34:59,118 [RTMPConnectionExecutor#2KXAUIDF2D9TN-1] INFO  o.red5.server.net.rtmp.RTMPHandler - No application scope found for live on host 192.168.1.103
+2015-08-05 09:34:59,121 [RTMPConnectionExecutor#2KXAUIDF2D9TN-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Close connection due to connect handling exception: 2KXAUIDF2D9TN
+2015-08-05 09:34:59,124 [NioProcessor-3] WARN  o.r.server.net.rtmp.RTMPConnManager - Connection not found for 2KXAUIDF2D9TN
+2015-08-05 09:35:10,027 [main] INFO  org.red5.server.tomcat.TomcatLoader - Dedicated RTMPT server configuration was not specified
+2015-08-05 09:35:10,032 [main] INFO  org.red5.server.ContextLoader - JEE server was found: TomcatLoader [serviceEngineName=red5Engine]
+2015-08-05 09:35:10,042 [main] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin ctor
+2015-08-05 09:35:10,044 [main] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin start
+2015-08-05 09:35:10,045 [main] INFO  o.red5.server.plugin.PluginLauncher - Loaded plugin: org.red5.net.websocket.WebSocketPlugin
+2015-08-05 09:35:10,051 [main] INFO  o.r.n.websocket.WebSocketTransport - WebSocket will be bound to [127.0.0.1:8081]
+2015-08-05 09:35:10,173 [main] INFO  o.r.n.websocket.WebSocketTransport - started  websocket transport
+2015-08-05 09:35:10,192 [Launcher:/live] INFO  org.red5.server.Context - Setting parent bean factory as core
+2015-08-05 09:35:10,213 [Launcher:/live] INFO  org.red5.server.scope.WebScope - Set server [Server@730e4amap[[empty]]]
+2015-08-05 09:35:10,238 [Launcher:/vod] INFO  org.red5.server.Context - Setting parent bean factory as core
+2015-08-05 09:35:10,238 [Launcher:] INFO  org.red5.server.Context - Setting parent bean factory as core
+2015-08-05 09:35:10,241 [Launcher:/vod] INFO  org.red5.server.scope.WebScope - Set server [Server@730e4amap[[empty]]]
+2015-08-05 09:35:10,241 [Launcher:/installer] INFO  org.red5.server.Context - Setting parent bean factory as core
+2015-08-05 09:35:10,242 [Launcher:] INFO  org.red5.server.scope.WebScope - Set server [Server@730e4amap[[empty]]]
+2015-08-05 09:35:10,242 [Launcher:/live] INFO  org.red5.server.Server - Add mapping global: default host:  context: live
+2015-08-05 09:35:10,243 [Launcher:/vod] INFO  org.red5.server.Server - Add mapping global: default host:  context: vod
+2015-08-05 09:35:10,244 [Launcher:/installer] INFO  org.red5.server.scope.WebScope - Set server [Server@730e4amap[[empty]]]
+2015-08-05 09:35:10,244 [Launcher:] INFO  org.red5.server.scope.Scope - Scope null name reset to:  disallowed
+2015-08-05 09:35:10,248 [Launcher:/installer] INFO  org.red5.server.Server - Add mapping global: default host: localhost context: installer
+2015-08-05 09:35:10,251 [Launcher:/installer] INFO  org.red5.server.Server - Add mapping global: default host: localhost:5080 context: installer
+2015-08-05 09:35:10,256 [Launcher:] INFO  org.red5.server.Server - Add mapping global: default host:  context: null
+2015-08-05 09:35:10,257 [Launcher:] INFO  org.red5.server.scope.Scope - Invalid scope name, null is not allowed
+2015-08-05 09:35:10,259 [Launcher:] WARN  org.red5.server.scope.Scope - Invalid scope rejected: Scope [name=null, path=/default, type=APPLICATION, autoStart=true, creationTime=1438742110241, depth=1, enabled=true, running=false]
+2015-08-05 09:35:10,261 [Launcher:] WARN  org.red5.server.scope.Scope - Scope not added to parent
+2015-08-05 09:35:10,262 [Launcher:] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2015-08-05 09:35:10,262 [Launcher:/live] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2015-08-05 09:35:10,262 [Launcher:/vod] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2015-08-05 09:35:10,267 [Launcher:/installer] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2015-08-05 09:35:10,271 [Launcher:/installer] INFO  org.red5.server.service.Installer - Installer service created
+2015-08-05 09:35:11,096 [Launcher:/admin] INFO  org.red5.server.Context - Setting parent bean factory as core
+2015-08-05 09:35:11,099 [Launcher:/admin] INFO  org.red5.server.scope.WebScope - Set server [Server@730e4amap['/live' -> 'default', '/vod' -> 'default', '/' -> 'default', 'localhost:5080/installer' -> 'default', 'localhost/installer' -> 'default']]
+2015-08-05 09:35:11,102 [Launcher:/admin] INFO  org.red5.server.Server - Add mapping global: default host:  context: admin
+2015-08-05 09:35:11,130 [Launcher:/admin] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2015-08-05 09:35:13,827 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - onCommand Invoke #1: Service: null Method: connect Num Params: 0
+2015-08-05 09:35:13,827 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - connect
+2015-08-05 09:35:13,828 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Connecting to: live
+2015-08-05 09:35:13,829 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Conn RTMPMinaConnection from 192.168.1.103 (in: 3174 out: 3073) session: 6BFI6JCEWK1DA state: connected, scope Scope [name=live, path=/default, type=APPLICATION, autoStart=true, creationTime=1438742110205, depth=1, enabled=true, running=true], call Service: null Method: connect Num Params: 0
+2015-08-05 09:35:13,830 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Call args {}
+2015-08-05 09:35:13,832 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:192.168.1.103 c-client-id:0
+2015-08-05 09:35:13,844 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Connected - Client: 0
+2015-08-05 09:35:13,858 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - onCommand Invoke #2: Service: null Method: releaseStream Num Params: 1 0: test
+2015-08-05 09:35:13,859 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Stream action: releaseStream
+2015-08-05 09:35:13,860 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Invoking Service: null Method: releaseStream Num Params: 1 0: test from RTMPMinaConnection from 192.168.1.103 (in: 3285 out: 3354) session: 6BFI6JCEWK1DA state: connected with service: org.red5.server.stream.StreamService@330590
+2015-08-05 09:35:13,864 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Stream service invoke releaseStream success
+2015-08-05 09:35:13,864 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Status for releaseStream was null
+2015-08-05 09:35:13,866 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - onCommand Invoke #3: Service: null Method: FCPublish Num Params: 1 0: test
+2015-08-05 09:35:13,867 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Stream action: 
+2015-08-05 09:35:13,867 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Defaulting to invoke for: FCPublish
+2015-08-05 09:35:13,867 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Scope: Scope [name=live, path=/default, type=APPLICATION, autoStart=true, creationTime=1438742110205, depth=1, enabled=true, running=true] handler: org.red5.server.adapter.ApplicationAdapter@5a9185
+2015-08-05 09:35:13,868 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Context: org.red5.server.Context@1a3fac2
+2015-08-05 09:35:13,870 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - onCommand Invoke #4: Service: null Method: createStream Num Params: 0
+2015-08-05 09:35:13,871 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Stream action: createStream
+2015-08-05 09:35:13,871 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Invoking Service: null Method: createStream Num Params: 0 from RTMPMinaConnection from 192.168.1.103 (in: 3285 out: 3405) session: 6BFI6JCEWK1DA state: connected with service: org.red5.server.stream.StreamService@330590
+2015-08-05 09:35:13,872 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Stream service invoke createStream success
+2015-08-05 09:35:13,872 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Status for createStream was null
+2015-08-05 09:35:13,874 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - onCommand Invoke #5: Service: null Method: publish Num Params: 2 0: test 1: live
+2015-08-05 09:35:13,875 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Stream action: publish
+2015-08-05 09:35:13,875 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Invoking Service: null Method: publish Num Params: 2 0: test 1: live from RTMPMinaConnection from 192.168.1.103 (in: 3331 out: 3442) session: 6BFI6JCEWK1DA state: connected with service: org.red5.server.stream.StreamService@330590
+2015-08-05 09:35:13,887 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@618abf new: org.red5.server.stream.ClientBroadcastStream@618abf
+2015-08-05 09:35:13,888 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: test
+2015-08-05 09:35:13,892 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:publish c-ip:192.168.1.103 x-sname:6864e6cf-c201-4c8d-a944-ea16064deac2 x-name:test
+2015-08-05 09:35:13,897 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Stream service invoke publish success
+2015-08-05 09:35:13,898 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Status for publish was null
+2015-08-05 09:35:13,898 [RTMPConnectionExecutor#6BFI6JCEWK1DA-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Method does not have return value, do not reply
+2015-08-05 09:36:37,169 [RTMPConnectionExecutor#A9DT6JUEINQHH-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - onCommand Invoke #1: Service: null Method: connect Num Params: 0
+2015-08-05 09:36:37,173 [RTMPConnectionExecutor#A9DT6JUEINQHH-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - connect
+2015-08-05 09:36:37,174 [RTMPConnectionExecutor#A9DT6JUEINQHH-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Connecting to: live
+2015-08-05 09:36:37,176 [RTMPConnectionExecutor#A9DT6JUEINQHH-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Conn RTMPMinaConnection from 192.168.1.103 (in: 3437 out: 3073) session: A9DT6JUEINQHH state: connected, scope Scope [name=live, path=/default, type=APPLICATION, autoStart=true, creationTime=1438742110205, depth=1, enabled=true, running=true], call Service: null Method: connect Num Params: 0
+2015-08-05 09:36:37,180 [RTMPConnectionExecutor#A9DT6JUEINQHH-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Call args {}
+2015-08-05 09:36:37,181 [RTMPConnectionExecutor#A9DT6JUEINQHH-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:192.168.1.103 c-client-id:1
+2015-08-05 09:36:37,191 [RTMPConnectionExecutor#A9DT6JUEINQHH-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Connected - Client: 1
+2015-08-05 09:36:37,289 [RTMPConnectionExecutor#A9DT6JUEINQHH-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - onCommand Invoke #2: Service: null Method: createStream Num Params: 0
+2015-08-05 09:36:37,289 [RTMPConnectionExecutor#A9DT6JUEINQHH-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Stream action: createStream
+2015-08-05 09:36:37,289 [RTMPConnectionExecutor#A9DT6JUEINQHH-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Invoking Service: null Method: createStream Num Params: 0 from RTMPMinaConnection from 192.168.1.103 (in: 3491 out: 3287) session: A9DT6JUEINQHH state: connected with service: org.red5.server.stream.StreamService@330590
+2015-08-05 09:36:37,292 [RTMPConnectionExecutor#A9DT6JUEINQHH-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Stream service invoke createStream success
+2015-08-05 09:36:37,293 [RTMPConnectionExecutor#A9DT6JUEINQHH-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Status for createStream was null
+2015-08-05 09:36:37,328 [RTMPConnectionExecutor#A9DT6JUEINQHH-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - onCommand Invoke #0: Service: null Method: play Num Params: 2 0: test 1: -1000
+2015-08-05 09:36:37,328 [RTMPConnectionExecutor#A9DT6JUEINQHH-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Stream action: play
+2015-08-05 09:36:37,329 [RTMPConnectionExecutor#A9DT6JUEINQHH-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Invoking Service: null Method: play Num Params: 2 0: test 1: -1000 from RTMPMinaConnection from 192.168.1.103 (in: 3537 out: 3318) session: A9DT6JUEINQHH state: connected with service: org.red5.server.stream.StreamService@330590
+2015-08-05 09:36:37,378 [Red5_Scheduler_Worker-13] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:192.168.1.103 x-sname:432a9e18-906d-4ee9-be0e-ef5356a79b7f
+2015-08-05 09:36:37,389 [RTMPConnectionExecutor#A9DT6JUEINQHH-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Stream service invoke play success
+2015-08-05 09:36:37,389 [RTMPConnectionExecutor#A9DT6JUEINQHH-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Status for play was null
+2015-08-05 09:36:37,389 [RTMPConnectionExecutor#A9DT6JUEINQHH-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Method does not have return value, do not reply
+2015-08-05 09:36:37,398 [Red5_Scheduler_Worker-14] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:192.168.1.103 x-sname:432a9e18-906d-4ee9-be0e-ef5356a79b7f x-name:test
+2015-08-05 09:36:44,518 [NioProcessor-5] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:192.168.1.103 c-client-id:1
+2015-08-05 09:36:44,527 [Red5_Scheduler_Worker-19] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:192.168.1.103 cs-bytes:3565 sc-bytes:472992 x-sname:432a9e18-906d-4ee9-be0e-ef5356a79b7f
+2015-08-05 09:37:46,588 [RTMPConnectionExecutor#NHD9BGKIWDTVO-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - onCommand Invoke #1: Service: null Method: connect Num Params: 0
+2015-08-05 09:37:46,589 [RTMPConnectionExecutor#NHD9BGKIWDTVO-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - connect
+2015-08-05 09:37:46,589 [RTMPConnectionExecutor#NHD9BGKIWDTVO-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Connecting to: live
+2015-08-05 09:37:46,590 [RTMPConnectionExecutor#NHD9BGKIWDTVO-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Conn RTMPMinaConnection from 192.168.1.120 (in: 3437 out: 3073) session: NHD9BGKIWDTVO state: connected, scope Scope [name=live, path=/default, type=APPLICATION, autoStart=true, creationTime=1438742110205, depth=1, enabled=true, running=true], call Service: null Method: connect Num Params: 0
+2015-08-05 09:37:46,590 [RTMPConnectionExecutor#NHD9BGKIWDTVO-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Call args {}
+2015-08-05 09:37:46,590 [RTMPConnectionExecutor#NHD9BGKIWDTVO-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:192.168.1.120 c-client-id:2
+2015-08-05 09:37:46,593 [RTMPConnectionExecutor#NHD9BGKIWDTVO-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Connected - Client: 2
+2015-08-05 09:37:46,616 [RTMPConnectionExecutor#NHD9BGKIWDTVO-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - onCommand Invoke #2: Service: null Method: createStream Num Params: 0
+2015-08-05 09:37:46,616 [RTMPConnectionExecutor#NHD9BGKIWDTVO-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Stream action: createStream
+2015-08-05 09:37:46,617 [RTMPConnectionExecutor#NHD9BGKIWDTVO-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Invoking Service: null Method: createStream Num Params: 0 from RTMPMinaConnection from 192.168.1.120 (in: 3491 out: 3287) session: NHD9BGKIWDTVO state: connected with service: org.red5.server.stream.StreamService@330590
+2015-08-05 09:37:46,617 [RTMPConnectionExecutor#NHD9BGKIWDTVO-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Stream service invoke createStream success
+2015-08-05 09:37:46,617 [RTMPConnectionExecutor#NHD9BGKIWDTVO-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Status for createStream was null
+2015-08-05 09:37:46,639 [RTMPConnectionExecutor#NHD9BGKIWDTVO-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - onCommand Invoke #0: Service: null Method: play Num Params: 2 0: test 1: -1000
+2015-08-05 09:37:46,639 [RTMPConnectionExecutor#NHD9BGKIWDTVO-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Stream action: play
+2015-08-05 09:37:46,639 [RTMPConnectionExecutor#NHD9BGKIWDTVO-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Invoking Service: null Method: play Num Params: 2 0: test 1: -1000 from RTMPMinaConnection from 192.168.1.120 (in: 3537 out: 3318) session: NHD9BGKIWDTVO state: connected with service: org.red5.server.stream.StreamService@330590
+2015-08-05 09:37:46,645 [RTMPConnectionExecutor#NHD9BGKIWDTVO-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Stream service invoke play success
+2015-08-05 09:37:46,645 [RTMPConnectionExecutor#NHD9BGKIWDTVO-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Status for play was null
+2015-08-05 09:37:46,645 [RTMPConnectionExecutor#NHD9BGKIWDTVO-1] DEBUG o.red5.server.net.rtmp.RTMPHandler - Method does not have return value, do not reply
+2015-08-05 09:37:46,650 [Red5_Scheduler_Worker-14] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:192.168.1.120 x-sname:0fe56cb0-6c27-4c51-88ea-019088d2ea65
+2015-08-05 09:37:46,655 [Red5_Scheduler_Worker-16] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:192.168.1.120 x-sname:0fe56cb0-6c27-4c51-88ea-019088d2ea65 x-name:test
+2015-08-05 09:47:32,270 [NioProcessor-4] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:192.168.1.103 cs-bytes:36172762 sc-bytes:3755 x-sname:6864e6cf-c201-4c8d-a944-ea16064deac2 x-file-length:738 x-name:test
+2015-08-05 09:47:32,272 [NioProcessor-4] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:192.168.1.103 c-client-id:0

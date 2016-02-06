@@ -1,0 +1,70 @@
+2015-07-31 14:29:00,356 [main] INFO  org.red5.server.Launcher - Red5 Server 1.0.6-SNAPSHOT (https://github.com/Red5)
+2015-07-31 14:29:00,705 [main] INFO  o.r.spring.Red5ApplicationContext - setApplicationContext: org.springframework.context.support.FileSystemXmlApplicationContext@1f5b51f: startup date [Fri Jul 31 14:29:00 ICT 2015]; root of context hierarchy
+2015-07-31 14:29:00,705 [main] INFO  o.r.spring.Red5ApplicationContext - Red5ApplicationContext init
+2015-07-31 14:29:00,706 [main] INFO  o.r.spring.Red5ApplicationContext - Refreshing ApplicationContext 'red5.common': startup date [Fri Jul 31 14:29:00 ICT 2015]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@1f5b51f
+2015-07-31 14:29:00,824 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2015-07-31 14:29:00,838 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2015-07-31 14:29:00,838 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+2015-07-31 14:29:00,839 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2015-07-31 14:29:00,839 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'Red5_Scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 32 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2015-07-31 14:29:00,839 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'Red5_Scheduler' initialized from the specified file : 'C:/Program Files/Red5/conf/quartz.properties'
+2015-07-31 14:29:00,840 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+2015-07-31 14:29:00,840 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler Red5_Scheduler_$_NON_CLUSTERED started.
+2015-07-31 14:29:01,237 [main] INFO  org.red5.server.service.WarDeployer - War deployer service created
+2015-07-31 14:29:01,385 [main] INFO  o.r.spring.Red5ApplicationContext - setApplicationContext: org.springframework.context.support.FileSystemXmlApplicationContext@1f5b51f: startup date [Fri Jul 31 14:29:00 ICT 2015]; root of context hierarchy
+2015-07-31 14:29:01,385 [main] INFO  o.r.spring.Red5ApplicationContext - Red5ApplicationContext init
+2015-07-31 14:29:01,385 [main] INFO  o.r.spring.Red5ApplicationContext - Refreshing ApplicationContext 'red5.core': startup date [Fri Jul 31 14:29:01 ICT 2015]; parent: ApplicationContext 'red5.common'
+2015-07-31 14:29:01,449 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP will be bound to [192.168.1.102:1935]
+2015-07-31 14:29:01,449 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP Mina Transport Settings
+Acceptor style: default I/O threads: 16
+TCP no-delay: true keep-alive: false
+2015-07-31 14:29:01,538 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Traffic class modification is disabled
+2015-07-31 14:29:01,539 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Send buffer size: 65536 recv buffer size: 65536 so linger: -1 traffic class: 0
+2015-07-31 14:29:01,569 [main] INFO  org.red5.server.ContextLoader - ContextLoader init
+2015-07-31 14:29:01,571 [main] INFO  org.red5.server.ContextLoader - Loading: default.context = ${red5.root}/webapps/red5-default.xml => C:/Program Files/Red5/webapps/red5-default.xml
+2015-07-31 14:29:01,619 [main] INFO  org.red5.server.Context - Setting parent bean factory as core
+2015-07-31 14:29:01,694 [main] INFO  org.red5.server.tomcat.TomcatLoader - Loading tomcat
+2015-07-31 14:29:01,694 [main] INFO  org.red5.server.tomcat.TomcatLoader - Server root: C:/Program Files/Red5
+2015-07-31 14:29:01,694 [main] INFO  org.red5.server.tomcat.TomcatLoader - Config root: C:/Program Files/Red5/conf
+2015-07-31 14:29:01,714 [main] INFO  org.red5.server.tomcat.TomcatLoader - Application root: C:/Program Files/Red5/webapps
+2015-07-31 14:29:01,784 [main] INFO  org.red5.server.tomcat.TomcatLoader - Starting Tomcat servlet engine
+2015-07-31 14:29:30,430 [main] INFO  org.red5.server.tomcat.TomcatLoader - Dedicated RTMPT server configuration was not specified
+2015-07-31 14:29:30,430 [main] INFO  org.red5.server.ContextLoader - JEE server was found: TomcatLoader [serviceEngineName=red5Engine]
+2015-07-31 14:29:30,434 [main] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin ctor
+2015-07-31 14:29:30,435 [main] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin start
+2015-07-31 14:29:30,435 [main] INFO  o.red5.server.plugin.PluginLauncher - Loaded plugin: org.red5.net.websocket.WebSocketPlugin
+2015-07-31 14:29:30,440 [main] INFO  o.r.n.websocket.WebSocketTransport - WebSocket will be bound to [0.0.0.0:8081]
+2015-07-31 14:29:30,594 [main] INFO  o.r.n.websocket.WebSocketTransport - started  websocket transport
+2015-07-31 14:29:30,597 [Launcher:/vod] INFO  org.red5.server.Context - Setting parent bean factory as core
+2015-07-31 14:29:30,599 [Launcher:] INFO  org.red5.server.Context - Setting parent bean factory as core
+2015-07-31 14:29:30,602 [Launcher:/live] INFO  org.red5.server.Context - Setting parent bean factory as core
+2015-07-31 14:29:30,608 [Launcher:/vod] INFO  org.red5.server.scope.WebScope - Set server [Server@1f26f91map[[empty]]]
+2015-07-31 14:29:30,613 [Launcher:/installer] INFO  org.red5.server.Context - Setting parent bean factory as core
+2015-07-31 14:29:30,615 [Launcher:/live] INFO  org.red5.server.scope.WebScope - Set server [Server@1f26f91map[[empty]]]
+2015-07-31 14:29:30,616 [Launcher:] INFO  org.red5.server.scope.WebScope - Set server [Server@1f26f91map[[empty]]]
+2015-07-31 14:29:30,616 [Launcher:/installer] INFO  org.red5.server.scope.WebScope - Set server [Server@1f26f91map[[empty]]]
+2015-07-31 14:29:30,616 [Launcher:] INFO  org.red5.server.scope.Scope - Scope null name reset to:  disallowed
+2015-07-31 14:29:30,617 [Launcher:/installer] INFO  org.red5.server.Server - Add mapping global: default host: localhost context: installer
+2015-07-31 14:29:30,617 [Launcher:/vod] INFO  org.red5.server.Server - Add mapping global: default host:  context: vod
+2015-07-31 14:29:30,618 [Launcher:/installer] INFO  org.red5.server.Server - Add mapping global: default host: localhost:5080 context: installer
+2015-07-31 14:29:30,618 [Launcher:/live] INFO  org.red5.server.Server - Add mapping global: default host:  context: live
+2015-07-31 14:29:30,621 [Launcher:] INFO  org.red5.server.Server - Add mapping global: default host:  context: null
+2015-07-31 14:29:30,622 [Launcher:] INFO  org.red5.server.scope.Scope - Invalid scope name, null is not allowed
+2015-07-31 14:29:30,622 [Launcher:] WARN  org.red5.server.scope.Scope - Invalid scope rejected: Scope [name=null, path=/default, type=APPLICATION, autoStart=true, creationTime=1438327770599, depth=1, enabled=true, running=false]
+2015-07-31 14:29:30,622 [Launcher:] WARN  org.red5.server.scope.Scope - Scope not added to parent
+2015-07-31 14:29:30,622 [Launcher:] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2015-07-31 14:29:30,627 [Launcher:/chat] INFO  org.red5.server.Context - Setting parent bean factory as core
+2015-07-31 14:29:30,629 [Launcher:/chat] INFO  org.red5.server.scope.WebScope - Set server [Server@1f26f91map['/live' -> 'default', '/vod' -> 'default', '/' -> 'default', 'localhost:5080/installer' -> 'default', 'localhost/installer' -> 'default']]
+2015-07-31 14:29:30,630 [Launcher:/chat] INFO  org.red5.server.Server - Add mapping global: default host:  context: chat
+2015-07-31 14:29:30,630 [Launcher:/installer] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2015-07-31 14:29:30,630 [Launcher:/vod] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2015-07-31 14:29:30,631 [Launcher:/installer] INFO  org.red5.server.service.Installer - Installer service created
+2015-07-31 14:29:30,631 [Launcher:/live] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2015-07-31 14:29:30,648 [Launcher:/chat] INFO  org.red5.server.scope.WebScope - Webscope already registered

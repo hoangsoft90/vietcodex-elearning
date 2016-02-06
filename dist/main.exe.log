@@ -1,0 +1,227 @@
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+Exception in thread Thread-12:
+Traceback (most recent call last):
+  File "threading.pyo", line 810, in __bootstrap_inner
+  File "threading.pyo", line 763, in run
+  File "main.py", line 126, in stopEverything
+  File "hoang.pyo", line 157, in stop_red5_server
+  File "subprocess.pyo", line 710, in __init__
+  File "subprocess.pyo", line 958, in _execute_child
+WindowsError: [Error 2] The system cannot find the file specified
+
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+Traceback (most recent call last):
+  File "trayIcon.pyo", line 51, in quitApp
+  File "main.py", line 132, in stopEverything
+  File "main.py", line 587, in check_to_go_livestream_client_website
+  File "Elearning.pyo", line 45, in activeElearning_site
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 303, in put
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 68, in make_put_request
+  File "requests\sessions.pyo", line 518, in put
+  File "requests\sessions.pyo", line 451, in request
+  File "requests\sessions.pyo", line 382, in prepare_request
+  File "requests\models.pyo", line 304, in prepare
+  File "requests\models.pyo", line 369, in prepare_url
+LookupError: unknown encoding: idna
+Traceback (most recent call last):
+  File "trayIcon.pyo", line 51, in quitApp
+  File "main.py", line 132, in stopEverything
+  File "main.py", line 587, in check_to_go_livestream_client_website
+  File "Elearning.pyo", line 45, in activeElearning_site
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 303, in put
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 68, in make_put_request
+  File "requests\sessions.pyo", line 518, in put
+  File "requests\sessions.pyo", line 451, in request
+  File "requests\sessions.pyo", line 382, in prepare_request
+  File "requests\models.pyo", line 304, in prepare
+  File "requests\models.pyo", line 369, in prepare_url
+LookupError: unknown encoding: idna
+Exception in thread Thread-32:
+Traceback (most recent call last):
+  File "threading.pyo", line 810, in __bootstrap_inner
+  File "threading.pyo", line 763, in run
+  File "main.py", line 132, in stopEverything
+  File "main.py", line 587, in check_to_go_livestream_client_website
+  File "Elearning.pyo", line 45, in activeElearning_site
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 303, in put
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 68, in make_put_request
+  File "requests\sessions.pyo", line 518, in put
+  File "requests\sessions.pyo", line 451, in request
+  File "requests\sessions.pyo", line 382, in prepare_request
+  File "requests\models.pyo", line 304, in prepare
+  File "requests\models.pyo", line 369, in prepare_url
+LookupError: unknown encoding: idna
+
+Traceback (most recent call last):
+  File "trayIcon.pyo", line 51, in quitApp
+  File "main.py", line 132, in stopEverything
+  File "main.py", line 587, in check_to_go_livestream_client_website
+  File "Elearning.pyo", line 45, in activeElearning_site
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 303, in put
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 68, in make_put_request
+  File "requests\sessions.pyo", line 518, in put
+  File "requests\sessions.pyo", line 451, in request
+  File "requests\sessions.pyo", line 382, in prepare_request
+  File "requests\models.pyo", line 304, in prepare
+  File "requests\models.pyo", line 369, in prepare_url
+LookupError: unknown encoding: idna
+Unhandled exception in thread started by <function force_kill at 0x012F4D70>
+Traceback (most recent call last):
+  File "main.py", line 540, in force_kill
+  File "main.py", line 132, in stopEverything
+  File "main.py", line 587, in check_to_go_livestream_client_website
+  File "Elearning.pyo", line 45, in activeElearning_site
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 303, in put
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 68, in make_put_request
+  File "requests\sessions.pyo", line 518, in put
+  File "requests\sessions.pyo", line 451, in request
+  File "requests\sessions.pyo", line 382, in prepare_request
+  File "requests\models.pyo", line 304, in prepare
+  File "requests\models.pyo", line 369, in prepare_url
+LookupError: unknown encoding: idna
+Unhandled exception in thread started by <function force_kill at 0x012F4D70>
+Traceback (most recent call last):
+  File "main.py", line 540, in force_kill
+  File "main.py", line 132, in stopEverything
+  File "main.py", line 587, in check_to_go_livestream_client_website
+  File "Elearning.pyo", line 45, in activeElearning_site
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 303, in put
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 68, in make_put_request
+  File "requests\sessions.pyo", line 518, in put
+  File "requests\sessions.pyo", line 451, in request
+  File "requests\sessions.pyo", line 382, in prepare_request
+  File "requests\models.pyo", line 304, in prepare
+  File "requests\models.pyo", line 369, in prepare_url
+LookupError: unknown encoding: idna
+Traceback (most recent call last):
+  File "trayIcon.pyo", line 51, in quitApp
+  File "main.py", line 132, in stopEverything
+  File "main.py", line 587, in check_to_go_livestream_client_website
+  File "Elearning.pyo", line 45, in activeElearning_site
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 303, in put
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 68, in make_put_request
+  File "requests\sessions.pyo", line 518, in put
+  File "requests\sessions.pyo", line 451, in request
+  File "requests\sessions.pyo", line 382, in prepare_request
+  File "requests\models.pyo", line 304, in prepare
+  File "requests\models.pyo", line 369, in prepare_url
+LookupError: unknown encoding: idna
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+Traceback (most recent call last):
+  File "trayIcon.pyo", line 51, in quitApp
+  File "main.py", line 126, in stopEverything
+  File "hoang.pyo", line 157, in stop_red5_server
+  File "subprocess.pyo", line 710, in __init__
+  File "subprocess.pyo", line 958, in _execute_child
+WindowsError: [Error 2] The system cannot find the file specified
+Exception in thread Thread-21:
+Traceback (most recent call last):
+  File "threading.pyo", line 810, in __bootstrap_inner
+  File "threading.pyo", line 763, in run
+  File "main.py", line 126, in stopEverything
+  File "hoang.pyo", line 157, in stop_red5_server
+  File "subprocess.pyo", line 710, in __init__
+  File "subprocess.pyo", line 958, in _execute_child
+WindowsError: [Error 2] The system cannot find the file specified
+
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+Exception in thread Thread-15:
+Traceback (most recent call last):
+  File "threading.pyo", line 810, in __bootstrap_inner
+  File "threading.pyo", line 763, in run
+  File "main.py", line 126, in stopEverything
+  File "hoang.pyo", line 157, in stop_red5_server
+  File "subprocess.pyo", line 710, in __init__
+  File "subprocess.pyo", line 958, in _execute_child
+WindowsError: [Error 2] The system cannot find the file specified
+
+Traceback (most recent call last):
+  File "trayIcon.pyo", line 51, in quitApp
+  File "main.py", line 132, in stopEverything
+  File "main.py", line 587, in check_to_go_livestream_client_website
+  File "Elearning.pyo", line 45, in activeElearning_site
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 303, in put
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 68, in make_put_request
+  File "requests\sessions.pyo", line 518, in put
+  File "requests\sessions.pyo", line 451, in request
+  File "requests\sessions.pyo", line 382, in prepare_request
+  File "requests\models.pyo", line 304, in prepare
+  File "requests\models.pyo", line 369, in prepare_url
+LookupError: unknown encoding: idna
+Traceback (most recent call last):
+  File "trayIcon.pyo", line 51, in quitApp
+  File "main.py", line 132, in stopEverything
+  File "main.py", line 587, in check_to_go_livestream_client_website
+  File "Elearning.pyo", line 45, in activeElearning_site
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 303, in put
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 68, in make_put_request
+  File "requests\sessions.pyo", line 518, in put
+  File "requests\sessions.pyo", line 451, in request
+  File "requests\sessions.pyo", line 382, in prepare_request
+  File "requests\models.pyo", line 304, in prepare
+  File "requests\models.pyo", line 369, in prepare_url
+LookupError: unknown encoding: idna
+Traceback (most recent call last):
+  File "trayIcon.pyo", line 51, in quitApp
+  File "main.py", line 132, in stopEverything
+  File "main.py", line 587, in check_to_go_livestream_client_website
+  File "Elearning.pyo", line 45, in activeElearning_site
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 303, in put
+  File "firebase\decorators.pyo", line 19, in wrapped
+  File "firebase\firebase.pyo", line 68, in make_put_request
+  File "requests\sessions.pyo", line 518, in put
+  File "requests\sessions.pyo", line 451, in request
+  File "requests\sessions.pyo", line 382, in prepare_request
+  File "requests\models.pyo", line 304, in prepare
+  File "requests\models.pyo", line 369, in prepare_url
+LookupError: unknown encoding: idna
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+E:\HoangData\HoangWeb\projects\vietcodex-elearning\dist\library.zip\requests\packages\urllib3\connectionpool.py:768: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html

@@ -1,0 +1,2 @@
+Khi start stream server, cần chờ vài giây (có thể 1phut) sau đó mới start stream tránh TH lỗ gửi stream đến server.
+Nếu start stream chưa thành công, hay thử vài lần.

@@ -1,0 +1,13 @@
+- Red5: TH không stop đc red5 thì đóng ứng dụng.
+- ffmpeg: Sau khi start red5, start stream có thể thử 3-4 lần mới hoạt động. Có thể pải chờ red5 phản hồi.
+- nginx:(không cần vì ffmpeg làm việc với Red5) vì lần đầu chạy sẽ có 1 cửa sổ yêu cầu quyền xác nhận chạy server nginx.
+
+Note: Stop đúng quy trình để close được app, tắt trên cmd trước rồi nhấn stopt trên app. Do để hiển thị CMD nên bị vậy.
++ Máy xem sau một thời gian sử dụng TH dừng hình cần nạp lại trang để khởi động lại trình player.
++ Stop mọi servers trước khi exit từ menu tray. Nếu làm sai servers cũ chưa exit:
+    - ứng dụng sẽ thông báo đã tồn tại server và có thể cần stop và start lại để đảm bảo hệ thống hoạt động.
+    - Sử dụng nút task manager để kill process.
+    =>stop process trên cmd vì có thể sẽ yêu cầu xác nhận, thay vì nhấn stop trên app.
++ Nếu start không được thử vài lần.
++ TH quá 5-7 giây red5/ffmpeg mới chạy lại thì nhấn vào "Check exists" để reset trạng thái nút hoặc stop và start lại.
++ Có thể nginx sau đó mới start live stream.

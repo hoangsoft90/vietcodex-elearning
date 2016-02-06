@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="cmd">
+      <file alias='ffmpeg-stream.bat'>data/ffmpeg-stream.bat</file>
+      <file alias='nginx.bat'>data/nginx.bat</file>
+      <file alias='red5.bat'>data/red5.bat</file>
+      <file alias='red5-shutdown.bat'>data/red5-shutdown.bat</file>
+      <file alias='test.bat'>data/test.bat</file>
+  </qresource>
+  <qresource prefix="text">
+    <file alias='help.txt'>data/help.txt</file>
+    <file alias='guide_tip.txt'>data/guide_tip.txt</file>
+  </qresource>
+</RCC>

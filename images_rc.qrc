@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="icons">
+    <file alias='icon.ico'>images/icon.ico</file>
+    <file alias='icon.png'>images/icon.png</file>
+    <file alias='icon_menu_left.png'>images/icon_menu_left.png</file>
+    <file alias='red_phone.png'>images/red_phone.png</file>
+  </qresource>
+  <qresource prefix="images">
+    <file alias='screen.jpg'>images/screen.jpg</file>
+    <file alias='splash-screen.jpg'>images/splash-screen.jpg</file>
+  </qresource>
+</RCC>
